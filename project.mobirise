@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SA Fire Watch (pty) Ltd",
-    "currentPage": "index.html",
+    "currentPage": "contact us.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -20,7 +20,7 @@
     "versionFirst": "4.12.3",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 222,
+    "uniqCompNum": 223,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/sa-logo-icon-2-76x88-1.png",
@@ -1741,21 +1741,21 @@
         {
           "_params": {
             "showTitle": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/contacts-7-922x643.png",
-            "parallax": false,
-            "bgColorRadio": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
             "bgColor": "#efefef",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#222",
-            "overlayOpacity": "0.6"
+            "overlayOpacity": 0.5
           },
-          "title": "REQUEST A CONSULTATION",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>ATTACH DOCS</a>",
+          "title": "CONTACT FORM",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>",
           "form": {
-            "action": "services@safirewatch.co.za",
+            "action": "design@sketchmarkcorp.co.za",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -1763,21 +1763,21 @@
               "name": {
                 "visible": true,
                 "title": "Name",
-                "customTitle": "Name"
+                "customTitle": "Name*"
               },
               "email": {
                 "visible": true,
                 "title": "Email",
-                "customTitle": "Services"
+                "customTitle": "Email*"
               },
               "phone": {
                 "visible": true,
                 "title": "Phone",
-                "customTitle": "Specify"
+                "customTitle": "Phone"
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Detailed Description"
+                "customTitle": "Message"
               }
             }
           },
@@ -1785,15 +1785,7 @@
             "Theme"
           ],
           "_name": "form1",
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "16px"
-            }
-          },
-          "_anchor": "form1-4n"
+          "_anchor": "form1-66"
         },
         {
           "_params": {
@@ -4108,7 +4100,7 @@
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
-                "title": "Sprinklers Installation, Servicing and Supply",
+                "title": "Fire Hydrant Tanks &amp; Pumps Installation, Servicing and Supply",
                 "contentAlign": "left",
                 "text": "",
                 "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">REGISTER</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LOGIN</a>",
